@@ -3,6 +3,8 @@
 ## Project setup
 ```
 yarn install
+npm install -g json-server
+json-server --watch db.json --port 8000
 ```
 
 ### Compiles and hot-reloads for development
