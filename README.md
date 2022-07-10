@@ -1,5 +1,5 @@
 # mail-app-vue
-A mail application using Vue
+A mail application using Vue, make sure to install all the dependencies
 
 # The application uses JSON Data Base server, you have to initialize it
 1. npm install -g json-server
