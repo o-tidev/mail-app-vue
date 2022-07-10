@@ -1,6 +1,24 @@
-# mail-app-vue
-A mail application using Vue, make sure to install all the dependencies
+# vue-3-demo
 
-# The application uses JSON Data Base server, you have to initialize it
-1. npm install -g json-server
-2. json-server --watch db.json --port 8000
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
