@@ -1,25 +1,28 @@
 {
-  "name": "vue-3-demo",
+  "name": "vue-practice-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "core-js": "^3.6.4",
-    "date-fns": "^2.11.0",
-    "marked": "^0.8.1",
-    "vue": "^3.0.0-beta.10"
+    "axios": "^0.27.2",
+    "core-js": "^3.6.5",
+    "dotenv": "^16.0.1",
+    "register-service-worker": "^1.7.1",
+    "vee-validate": "^4.5.11",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.3.0",
-    "@vue/cli-service": "^4.3.0",
-    "@vue/compiler-sfc": "^3.0.0-beta.10",
-    "faker": "^4.1.0",
-    "vue-cli-plugin-vue-next": "^0.1.2",
-    "vue-template-compiler": "^2.6.11"
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
   }
 }
